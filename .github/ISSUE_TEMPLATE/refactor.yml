@@ -1,43 +1,7 @@
-name: 🚀 Feature
-description: 새로운 기능 개발
-title: "[FEAT] "
-labels: ["feature"]
-assignees: []
-body:
-  - type: textarea
-    attributes:
-      label: 📌 Feature Description
-      description: 구현할 기능을 자세히 설명해주세요.
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: 🎯 Goal
-      description: 이 기능의 목적은 무엇인가요?
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: 🛠 Implementation Details
-      description: 기술 스택, API 변경사항, DB 변경사항 등
-      placeholder: |
-        - API: 
-        - DB:
-        - 기타:
-
-  - type: textarea
-    attributes:
-      label: 📋 Tasks
-      placeholder: |
-        - [ ] 기능 구현
-        - [ ] 테스트 코드 작성
-        - [ ] 문서 업데이트name: 🔄 Refactor
+name: 🔄 Refactor
 description: Code improvement or structural changes
 title: "[REFACTOR] "
 labels: ["refactor"]
-assignees: []
 body:
   - type: textarea
     attributes:

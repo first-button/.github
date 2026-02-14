@@ -2,7 +2,6 @@ name: 🚀 Feature
 description: Request or implement a new feature
 title: "[FEAT] "
 labels: ["feature"]
-assignees: []
 body:
   - type: textarea
     attributes:
