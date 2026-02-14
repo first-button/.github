@@ -1,0 +1,37 @@
+name: 🚀 Feature
+description: Request or implement a new feature
+title: "[FEAT] "
+labels: ["feature"]
+assignees: []
+body:
+  - type: textarea
+    attributes:
+      label: 📌 Feature Description
+      description: Clearly describe the feature to be implemented.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🎯 Goal
+      description: What problem does this feature solve?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🛠 Implementation Details
+      description: Technical notes (API changes, DB changes, dependencies, etc.)
+      placeholder: |
+        - API:
+        - Database:
+        - Dependencies:
+
+  - type: textarea
+    attributes:
+      label: 📋 Tasks
+      description: Break down implementation steps
+      placeholder: |
+        - [ ] Implement feature
+        - [ ] Write tests
+        - [ ] Update documentation
