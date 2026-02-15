@@ -1,0 +1,36 @@
+name: 🏗 Infrastructure
+description: Infrastructure setup, changes, or improvements
+title: "[INFRA] "
+labels: ["infra"]
+body:
+  - type: textarea
+    attributes:
+      label: 📌 Description
+      description: Describe the infrastructure change or setup needed.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🎯 Goal
+      description: What problem does this solve or what does it enable?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🛠 Implementation Details
+      description: Technical details (services, configurations, dependencies, etc.)
+      placeholder: |
+        - Service:
+        - Region:
+        - Dependencies:
+
+  - type: textarea
+    attributes:
+      label: 📋 Tasks
+      description: Break down implementation steps
+      placeholder: |
+        - [ ] Implement change
+        - [ ] Test in staging
+        - [ ] Verify in production
