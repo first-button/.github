@@ -6,28 +6,28 @@ assignees: []
 body:
   - type: textarea
     attributes:
-      label: 🐞 Bug Description
-      description: Describe the issue clearly.
+      label: 📌 Description
+      description: Describe the bug or issue clearly.
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: 🔁 Steps to Reproduce
-      description: Provide steps to reproduce the issue.
+      label: 🎯 Goal
+      description: What should be achieved to resolve this bug?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🛠 Changes Needed
+      description: List the specific changes needed to fix this bug.
+
+  - type: textarea
+    attributes:
+      label: 📋 Tasks
+      description: Checklist of tasks to complete.
       placeholder: |
-        1. 
-        2. 
-        3. 
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: 📷 Screenshots / Logs
-      description: Add screenshots or error logs if applicable.
-
-  - type: textarea
-    attributes:
-      label: ✅ Expected Behavior
-      description: What should have happened instead?
+        - [ ]
+        - [ ]
+        - [ ]
