@@ -4,7 +4,7 @@ Briefly describe what this PR does.
 ---
 
 ## 🔗 Related Issue
-Closes #
+Closes #(Issue Number)
 
 ---
 
@@ -12,20 +12,6 @@ Closes #
 - 
 - 
 - 
-
----
-
-## 🧪 How to Test
-Steps to verify the changes:
-1. 
-2. 
-3. 
-
----
-
-## ⚠️ Breaking Changes
-- [ ] No breaking changes
-- [ ] Breaking changes included (explain below)
 
 ---
 
