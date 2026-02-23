@@ -21,11 +21,13 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     attributes:
-      label: 🔗 Related Issue
-      description: Link to the related issue or troubleshooting ticket.
-      placeholder: "#issue_number or URL"
+      label: 🔗 Related Issue / Evidence
+      description: Link to related issues, paste screenshots, or attach logs.
+      placeholder: |
+        Related: #issue_number
+        Screenshots or logs below:
 
   - type: textarea
     attributes:
