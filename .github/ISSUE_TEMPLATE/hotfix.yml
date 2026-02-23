@@ -1,0 +1,51 @@
+name: 🚑 Hotfix
+description: Urgent fix that needs to be deployed immediately
+title: "[HOTFIX] "
+labels: ["hotfix"]
+body:
+  - type: textarea
+    attributes:
+      label: 📌 What broke?
+      description: Describe what is broken and the impact on users.
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: 🚨 Urgency
+      description: How urgent is this fix?
+      options:
+        - P0 (service down, deploy ASAP)
+        - P1 (major feature broken, deploy within hours)
+        - P2 (important but can wait until next business day)
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: 🔗 Related Issue
+      description: Link to the related issue or troubleshooting ticket.
+      placeholder: "#issue_number or URL"
+
+  - type: textarea
+    attributes:
+      label: 🔍 Root Cause
+      description: What caused the issue? (if known)
+
+  - type: textarea
+    attributes:
+      label: 🛠 Proposed Fix
+      description: What needs to change to fix this?
+      placeholder: |
+        - File:
+        - Change:
+
+  - type: textarea
+    attributes:
+      label: ✅ Verification
+      description: How do we confirm the fix works?
+      placeholder: |
+        - [ ] Fix applied
+        - [ ] Tested locally
+        - [ ] Deployed to dev
+        - [ ] Verified in production
