@@ -1,0 +1,50 @@
+name: 🔥 Troubleshooting
+description: Report an incident, outage, or unexpected system behavior
+title: "[TROUBLESHOOT] "
+labels: ["troubleshooting"]
+body:
+  - type: textarea
+    attributes:
+      label: 📌 Incident Summary
+      description: What happened? Briefly describe the issue.
+      placeholder: |
+        e.g. Bot scanners attempted to access /.git/config and /geoserver/web/ on the production server.
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: 🚨 Severity
+      description: How critical is this issue?
+      options:
+        - Critical (service down)
+        - High (major feature broken)
+        - Medium (degraded performance)
+        - Low (minor / cosmetic)
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🔍 Evidence / Logs
+      description: Paste relevant logs, screenshots, or monitoring data.
+      placeholder: |
+        ```
+        64.62.197.2 - "GET /.git/config HTTP/1.1" 200
+        47.91.97.187 - SSL_read() failed
+        ```
+
+  - type: textarea
+    attributes:
+      label: 🎯 Root Cause
+      description: What caused the issue? (if known)
+
+  - type: textarea
+    attributes:
+      label: 🛠 Resolution / Action Items
+      description: What was done or needs to be done to fix this?
+      placeholder: |
+        - [ ] Identify the issue
+        - [ ] Apply fix
+        - [ ] Verify fix
+        - [ ] Add prevention measures
